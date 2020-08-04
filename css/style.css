@@ -1,16 +1,129 @@
 *{
-	color: blue;
+	margin: 0;
+	padding: 0;
 	
+	
+}
+.clr{
+	clear: both;
 }
 
 
-body {
+ html, body {
 	
-	background-image: linear-gradient(to right top, rgba(10, 57, 128, 0.8), rgba(24, 60, 160, 0.8),rgba(57, 59, 189, 0.8),rgba(97, 51, 215, 0.52),rgba(141, 18, 235, 0.52)), url(../img/main_background.jpg);
+	font-family: 'lato', 'Arial', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	height: 100%;
+	width: 100%;
+	color: #1761a0;
+	background-color: #312c6b;
+	background-image: linear-gradient(to right top,rgba(32, 26, 112, 0.9), rgba(32, 26, 112, 0.9)), url(../img/main_background.jpg);
 	background-size: cover;
 	background-position: center;
-    height: 100vh;
-}	
+	
+}
+	
 
+.form-box{
+	width: 380px;
+	height: 480px;
+	position: relative;
+	margin: 6% auto;
+	background: transparent;
+	padding: 5px;
+	overflow: hidden;
+}
 
+.button-box{
+	width: 210px;
+	margin: 35px auto;
+	padding: relative;
+	box-shadow: 0 0 20px 9px #42cbf5;
+	border-radius: 30px;
+	color: red;
+}
 
+.switch-btn{
+	padding: 10px 30px;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+
+}
+
+#btn{
+	top: 40px;
+	left: 90px;
+	position: absolute;
+	width: 100px;
+	height: 35px;
+	background: linear-gradient(to right, #4287f5, #42cbf5);
+	border-radius: 30px;
+	transition: .5s;
+}
+
+.input-group{
+	top: 180px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+}
+
+.input-field{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+
+.submit-btn{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right, #4287f5, #42cbf5);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+
+.check-box{
+	margin: 30px 10px 30px 0;
+}
+
+span{
+	color: #777;
+	font-size: 12px;
+	bottom: 68px;
+	position: absolute;
+}
+
+#login{
+left: 50px;
+}
+
+#register{
+	left: 450px;
+}
+
+.logo{
+	
+	padding: 20px;
+	float: left;
+}
+
+.sift-comment{
+	display: block;
+	margin: 200px 20px;
+	padding: 20;	
+	position: absolute;
+
+}

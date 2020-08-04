@@ -10,6 +10,61 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<h2>SIFT</h2>
+	<div>
+		<div class="logo">
+			<img src="img/logo1.png">
+		</div>
+		
+		<div class="sift-comment">
+			<p>Manage all your social media feed<br> in one place like never before <br>fully customizable you in control<br> with SIFT.</p>
+		</div>
+		
+
+		<div class="form-box">
+			
+			<div class="button-box">
+				
+				<div id="btn"></div>
+					<button type="button" class="switch-btn" onclick="login()">Login</button>
+				
+				
+				<button type="button" class="switch-btn" onclick="register()">Sign Up</button>
+			</div>
+			
+			<div>
+				<form id="login" class="input-group">
+					<input type="text" class="input-field" placeholder="Username" required>
+					<input type="password" class="input-field" placeholder="Password" required>
+					<input type="checkbox" class="check-box"><span>Remember me</span>
+					<button type="submit" class="submit-btn">Login</button>
+				</form>
+				<form id="register" class="input-group">
+					<input type="text" class="input-field" placeholder="Name" required>
+					<input type="email" class="input-field" placeholder="email" required>
+					<input type="password" class="input-field" placeholder="Password" required>
+					<input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+					<button type="submit" class="submit-btn">Register</button>
+				</form>
+			</div>
+		</div>
+		<div class="clr"></div>
+	</div>
+	<script>
+		var x = document.getElementById("login");
+		var y = document.getElementById("register");
+		var z = document.getElementById("btn");
+
+		function register(){
+			x.style.left = "-400px";
+			y.style.left = "50px";
+			z.style.left = "200px";
+		}
+			function login(){
+			x.style.left = "50px";
+			y.style.left = "450px";
+			z.style.left = "90px";
+
+		}
+	</script>
 </body>
 </html>
